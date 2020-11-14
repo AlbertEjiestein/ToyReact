@@ -1,0 +1,4 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [["@babel/plugin-transform-react-jsx", {"pragma": "createElement"}]] // 将React.createElement重命名为自己想要的名字
+}
